@@ -17,6 +17,7 @@ public class Holamundox2 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("holamundox2.Holamundox2.main()");
+        ///// quiero que sean gemelos
     }
     
 }
