@@ -5,6 +5,8 @@
  */
 package holamundox2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author frankzapeta
@@ -18,6 +20,14 @@ public class Holamundox2 {
         // TODO code application logic here
         System.out.println("holamundox2.Holamundox2.main()");
         ///// quiero que sean gemelos
+    }
+    public static void suma(){
+        Scanner scanner =new Scanner(System.in);
+        System.out.println("Frank gay ingresa un numero");
+        int numero = scanner.nextInt();
+        System.out.println("Frank gay ingresa el segundo numero");
+        int numero2 = scanner.nextInt();
+        System.out.println("Resultado: "+(numero+numero2));
     }
     
 }
